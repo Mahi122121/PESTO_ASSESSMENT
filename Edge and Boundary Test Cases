@@ -1,0 +1,48 @@
+***Edge and Boundary Test Cases***
+
+1. User Registration:
+Test Case 1.3: Maximum Character Length
+
+    Objective: To test the system's response when entering the maximum number of characters for user registration fields.
+    Steps:
+        Navigate to the registration page.
+        Enter the maximum number of characters for each registration field.
+        Verify successful registration or appropriate error handling.
+
+2. Product Search:
+Test Case 2.3: Longest Search Query
+
+    Objective: To test the system's response when entering the longest possible search query.
+    Steps:
+        Navigate to the search bar.
+        Enter a search query with the maximum allowed characters.
+        Click the "Search" button.
+        Verify relevant products are displayed.
+
+3. Adding Items to Cart:
+Test Case 3.3: Maximum Cart Quantity
+
+    Objective: To test the system's response when adding the maximum quantity of items to the shopping cart.
+    Steps:
+        Browse to a product page.
+        Click the "Add to Cart" button with the maximum allowed quantity.
+        Verify the system handles the maximum quantity appropriately.
+
+4. Checkout Process:
+Test Case 4.3: Longest Address Input
+
+    Objective: To test the system's response when entering the longest possible address during checkout.
+    Steps:
+        Navigate to the checkout page.
+        Enter a shipping address with the maximum allowed characters.
+        Verify the system handles the longest address appropriately.
+
+5. Order Management:
+Test Case 5.3: Maximum Order Quantity
+
+    Objective: To test the system's response when placing an order with the maximum quantity of items.
+    Steps:
+        Add items to the cart.
+        Set the quantity of each item to the maximum allowed.
+        Complete the checkout process.
+        Verify the order is processed with the maximum quantity.

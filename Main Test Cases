@@ -1,0 +1,96 @@
+***1. Functional Test Cases***
+
+1. User Registration:
+Test Case 1.1: Successful User Registration
+
+    Objective: To verify that users can successfully register on the e-commerce website.
+    Steps:
+        Navigate to the registration page.
+        Fill in valid user details.
+        Click the "Register" button.
+        Verify successful registration message.
+        Log in with the newly registered credentials.
+
+Test Case 1.2: Invalid User Registration
+
+    Objective: To verify that the system handles invalid user registration gracefully.
+    Steps:
+        Navigate to the registration page.
+        Fill in invalid user details (ex:existing email, weak password).
+        Click the "Register" button.
+        Verify appropriate error messages are displayed.
+
+***2. Product Search***
+Test Case 2.1: Successful Product Search
+
+    Objective: To verify that users can successfully search for products on the website.
+    Steps:
+        Navigate to the search bar.
+        Enter a valid product name.
+        Click the "Search" button.
+        Verify relevant products are displayed.
+
+Test Case 2.2: Empty Product Search
+
+    Objective: To verify that the system handles empty search queries appropriately.
+    Steps:
+        Navigate to the search bar.
+        Leave the search query empty.
+        Click the "Search" button.
+        Verify that all products are displayed.
+
+***3. Adding Items to Cart***
+Test Case 3.1: Add Item to Cart
+
+    Objective: To verify that users can successfully add items to their shopping cart.
+    Steps:
+        Browse to a product page.
+        Click the "Add to Cart" button.
+        Navigate to the shopping cart.
+        Verify the added item is displayed in the cart.
+
+Test Case 3.2: Update Cart Quantity
+
+    Objective: To verify that users can update the quantity of items in their shopping cart.
+    Steps:
+        Navigate to the shopping cart.
+        Change the quantity of an item.
+        Verify the total price is updated accordingly.
+
+***4. Checkout Process***
+Test Case 4.1: Successful Checkout
+
+    Objective: To verify that users can successfully complete the checkout process.
+    Steps:
+        Navigate to the checkout page.
+        Fill in valid shipping and payment information.
+        Click the "Place Order" button.
+        Verify the order confirmation page is displayed.
+
+Test Case 4.2: Checkout with Invalid Information
+
+    Objective: To verify that the system handles incorrect checkout information appropriately.
+    Steps:
+        Navigate to the checkout page.
+        Fill in invalid or incomplete shipping/payment details.
+        Click the "Place Order" button.
+        Verify appropriate error messages are displayed.
+
+***5. Order Management***
+Test Case 5.1: View Order History
+
+    Objective: To verify that users can view their order history.
+    Steps:
+        Log in to the user account.
+        Navigate to the order history section.
+        Verify that a list of previous orders is displayed.
+
+Test Case 5.2: Cancel Order
+
+    Objective: To verify that users can cancel an order before it is processed.
+    Steps:
+        Navigate to the order history.
+        Select an order that is not yet processed.
+        Click the "Cancel Order" button.
+        Verify the order status is updated to canceled.
+
